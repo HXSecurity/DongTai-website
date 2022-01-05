@@ -1,0 +1,83 @@
+- id: quick_links
+  translation: 快 速 链 接
+  
+- id: social_links
+  translation: 洞 态 社 群
+  
+- id: subscribe
+  translation: 订 阅
+  
+- id: home
+  translation: 首 页
+  
+- id: all_together
+  translation: All Together
+  
+- id: name
+  translation: Your Name
+  
+- id: mail
+  translation: Working Mail
+  
+- id: website
+  translation: Company Website
+  
+- id: message
+  translation: Anything else?
+  
+- id: submit
+  translation: 提 交
+  
+- id: monthly
+  translation: 月 缴
+  
+- id: yearly
+  translation: 年 缴
+  
+- id: month
+  translation: 月
+  
+- id: year
+  translation: 年
+  
+- id: view_job
+  translation: 显 示 列 表
+  
+- id: apply
+  translation: 申 请 职 务
+  
+- id: first_name
+  translation: 姓 氏
+  
+- id: last_name
+  translation: 名 字
+  
+- id: company
+  translation: 现 任 公 司
+
+- id: minute_read
+  translation: Mins 阅 读
+  
+- id: cv
+  translation: 简 历
+  
+- id: recent_post
+  translation: 最 新 文 章
+  
+- id: recomended
+  translation: 推 荐
+
+- id: contact_wechat
+  translation: 联 络 我 们  
+
+- id: wechat_dongtai
+  translation: 洞 态 微 信 公 众 号
+
+- id: wechat_assistant
+  translation: 洞 态 小 助 理
+
+- id: hiring
+  translation:  ⚡ 招 募 中 ！
+
+- id: detail
+  translation: 了解详情

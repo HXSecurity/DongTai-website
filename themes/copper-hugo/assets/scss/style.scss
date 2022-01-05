@@ -1,0 +1,35 @@
+// Color Variables
+{{ with site.Params.variables }}
+$h1: {{.h1 | default "46px"}};
+$h1-md: {{.h1_md | default "38px"}};
+$h2: {{.h2 | default "36px"}};
+$h2-md: {{.h2_md | default "28px"}};
+$h3: {{.h3 | default "24px"}};
+$h3-md: {{.h3_md | default "22px"}};
+$h4: {{.h4 | default "20px"}};
+$h5: {{.h5 | default "18px"}};
+$h6: {{.h6 | default "15px"}};
+
+$white: {{.white | default "#ffffff"}};
+$black: {{.black | default "#000000"}};
+$dark: {{.dark | default "#1D1C21"}};
+$light: {{.light | default "#F6F6F6"}};
+$gray: {{.gray | default "#CECECE"}};
+$primary-color: {{.primary_color | default "#FF3158"}};
+$secondary-color: {{.secondary_color | default "#FFBB33"}};
+$tertiary-color: {{.tertiary_color | default "#1E858B"}};
+
+
+// Font Variables
+$primary-font: '{{ replaceRE ":[ital,]*wght@[0-9,;]+" "" .primary_font | default "Quicksand"}}', {{.primary_font_type | default "sans-serif"}};
+$secondary-font: '{{ replaceRE ":[ital,]*wght@[0-9,;]+" "" .secondary_font | default "Quicksand"}}', {{.secondary_font_type | default "sans-serif"}};
+$icon-font: '{{.icon_font | default "Font Awesome 5 Free"}}';
+{{ end }}
+
+@import 'mixins';
+@import 'typography';
+@import 'common';
+@import 'buttons';
+@import 'templates/header';
+@import 'templates/main';
+@import 'templates/footer';

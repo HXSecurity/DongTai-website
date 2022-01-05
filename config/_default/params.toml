@@ -1,0 +1,75 @@
+#################### default parameters ################################
+# favicon
+favicon = "images/favicon.png"
+favicon_32x32 = "images/favicon.png"
+favicon_16x16 = "images/favicon.png"
+apple_touch_icon = "images/favicon.png"
+# logo
+logo_text = "DongTai"
+logo = "images/logo.png"
+logo_width = "250px"
+# OpenGraph / Twitter Card metadata
+description = "This is meta description"
+author = "DongTai"
+image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+# custom script on header
+custom_script= ""
+
+# Preloader
+#[preloader]
+#enable = true
+#preloader = "images/preloader.png" # use jpg, png, svg or gif format.
+#greetings = "Welcome to"
+#greetings_to = "DongTai"
+
+# navigation button
+[navigation_button_bordered]
+enable = true
+label = ""
+link = "https://mp.weixin.qq.com/s/kA61uqoA-euL1GWoemnlSg"
+
+#[navigation_button_linked]
+#enable = true
+#label = ""
+#link = ""
+
+# Footer call to action
+#[footer_call_to_action]
+#enable = true
+#title = ""
+#[footer_cta_button]
+#enable = true
+#label = "Get Started With Us"
+#link = "contact"
+
+# Subscription
+[subscription]
+enable = true
+# mailchimp subsciption
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+
+# cookies
+[cookies]
+enable = false
+expire_days = 2
+content = "This site uses cookies. By continuing to use this website, you agree to their use."
+button = "I Accept"
+
+############################# social site ########################
+#[[social]]
+#title = "Wechat"
+#icon = "fab fa-weixin" # fontawesome icon : https://fontawesome.com/icons
+#link = "https://huoqi-public.oss-cn-beijing.aliyuncs.com/dongtai.io/static/img/wx.jpg"
+
+[[social]]
+title = "Github"
+icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://github.com/HXSecurity/DongTai"
+
+[[social]]
+title = "Twitter"
+icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://twitter.com/HuoXian_DongTai"

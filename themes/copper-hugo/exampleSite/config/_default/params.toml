@@ -1,0 +1,74 @@
+#################### default parameters ################################
+# favicon
+favicon = "images/favicon.png"
+favicon_32x32 = "images/favicon.png"
+favicon_16x16 = "images/favicon.png"
+apple_touch_icon = "images/favicon.png"
+# logo
+logo_text = "Copper"
+logo = "images/logo.png"
+logo_width = ""
+# OpenGraph / Twitter Card metadata
+description = "This is meta description"
+author = "Themefisher"
+image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+# custom script on header
+custom_script= ""
+
+# Preloader
+[preloader]
+enable = true
+preloader = "images/preloader.png" # use jpg, png, svg or gif format.
+greetings = "Welcome to"
+greetings_to = "Copper"
+
+# navigation button
+[navigation_button_bordered]
+enable = true
+label = "Sign Up"
+link = ""
+
+[navigation_button_linked]
+enable = true
+label = "Log In"
+link = ""
+# Footer call to action
+[footer_call_to_action]
+enable = true
+title = "Join 75,000+ growing business That **Use Copper To Their Brand**"
+[footer_cta_button]
+enable = true
+label = "Get Started With Us"
+link = "contact"
+
+# Subscription
+[subscription]
+enable = true
+# mailchimp subsciption
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+
+# cookies
+[cookies]
+enable = false
+expire_days = 2
+content = "This site uses cookies. By continuing to use this website, you agree to their use."
+button = "I Accept"
+
+############################# social site ########################
+[[social]]
+title = "facebook"
+icon = "fab fa-facebook" # fontawesome icon : https://fontawesome.com/icons
+link = "#"
+
+[[social]]
+title = "github"
+icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "#"
+
+[[social]]
+title = "linkedin"
+icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "#"
