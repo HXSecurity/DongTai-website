@@ -8,9 +8,9 @@ banner:
     DongTai IAST Security Testing Tool</p>
     <hr>
     <p style="letter-spacing: 3px; color: #33A9AC; font-size: 24px">
-    <strong>高检出率，简易部署</strong></p>
+    <strong>高检出率，轻松部署</strong></p>
     <p style="letter-spacing: 3px; color: #212F3C; font-size: 24px">
-    的开源交互式应用安全测试工具'
+    开源的交互式安全测试工具'
   image : "images/concept_1.svg"
   video:
     enable : true
@@ -52,9 +52,9 @@ clients_logo_slider:
 ########################## How it works #########################
 homepage_tab:
   enable : true
-  title : '洞 态  IAST  **运 作 流 程**'
+  title : '洞 态  IAST  **使 用 流 程**'
   content : '<p style="letter-spacing: 5px; color: #33A9AC; font-size: 24px"><strong>4 个步骤</storong></p>
-  <p style="letter-spacing: 5px; color: #212F3C; font-size: 24px">开启与您的第一个检测项目'
+  <p style="letter-spacing: 5px; color: #212F3C; font-size: 24px">开启您的第一个检测项目'
   tablist:
   # tab item
   - name : "部署 Server"
@@ -63,7 +63,7 @@ homepage_tab:
     content : "统一进行漏洞的检测<br>
     <br>☑ 快速部署
     <br>☑ 轻松卸载
-    <br>☑ 提供 SaaS 版"
+    <br>☑ 提供 SaaS 版 / 本地版"
     button:
       enable : true
       label : "了解详情"
@@ -78,7 +78,7 @@ homepage_tab:
     <br>☑ 开源组件漏洞检测
     <br>☑ 敏感信息检测
     <br>☑ 硬编码检测
-    <br>☑ 提供安装插件：IDEA
+    <br>☑ 支持 IntelliJ IDEA 插件安装
     <br><br>支援检测语言：
       <i class="fab fa-java fa-2x"></i>&ensp;&ensp;
       <i class="fab fa-python fa-2x"></i>&ensp;&ensp;
@@ -94,7 +94,7 @@ homepage_tab:
     title : "Run **Testing**"
     image : "images/product/testing.svg"
     content : '仅需触发请求流量<br>便能开始一个新的安全检测项目<br>
-    <br>☑ 支援 API，无痛衔接 DevSecOps 流程
+    <br>☑ 支持 API，无痛衔接 DevSecOps 流程
     <br>'
     button:
       enable : true
@@ -131,7 +131,7 @@ tools:
 ############################## Achivement ##############################
 achivement:
   enable : true
-  title : '<p style="color: #33A9AC;"><strong>洞 见 远 胜</strong></p>创 意'
+  title : '<p style="color: #33A9AC;"><strong>洞 见</strong></p> 远 胜 创 意'
   content : '<br>拥有专业的安全研发团队以及来自各行各业的安全专家们<br>共同维护的开源项目<br>
   <br>在企业实行安全检测流程的道路上
   <p style="color: #33A9AC;">安全从不是单次的任务，一群人能走的更远<br>'
