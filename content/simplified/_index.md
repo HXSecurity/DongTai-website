@@ -144,7 +144,7 @@ achivement:
     count : "30"
     extension : "+"
     
-  - name : "深度用户"
+  - name : "企业用户"
     count : "100"
     extension : "+"
 
@@ -202,20 +202,27 @@ testimonial:
     label : "View All Testimonials"
     link : "testimonial"
 
+  - name : "同程旅行"
+    image : "images/users/00.png"
+    designation : ""
+    content : "洞态IAST漏洞检测更高效，覆盖威胁更全面，漏洞详情也十分详细，直接定位到代码行，利于开发部门修复漏洞。误报率相比白盒也低很多，节省大量进行漏洞复侧的人力。高效、低误报的优势提高了安全部门的价值，也间接推动了安全部门与其他部门的沟通合作。"
+
+  - name : "去哪儿"
+    image : "images/users/00.png"
+    designation : ""
+    content : "洞态IAST在去哪儿已经部署半年多了，在实际使用中能明显感受到洞态IAST对应用威胁识别广泛、组件威胁检出率高的优势。"
+
   testimonial_item:
-  - name : "WangYuHua"
-    image : "images/users/01.png"
-    designation : "安全高级工程师, 58 安全应急响应中心"
-    content : "洞态提供了完整的污点分析演算法及规则的抽象。"
+  - name : "58 集团"
+    image : "images/users/00.png"
+    designation : ""
+    content : "洞态IAST是款优秀的开源产品，基于动态的污点分析进行漏洞检测，覆盖了大量漏洞场景。产品背靠火线社区，社区向产品贡献了大量安全研究、安全开发的力量，注入了活力，为洞态的开源发展提供了优质的环境。祝洞态IAST越办越好。"
 
-  - name : "南哥"
-    image : "images/users/03.png"
-    designation : "安全高级工程师, 轻松筹"
-    content : "企业建设 DevSecOps 过程中，扫描工具是不可少的。<br>洞态在技术领域上具备优良的基础，高准确率及低误报率解决了 DevSecOps 中的隐性成本。"    
+  - name : "芒果 TV"
+    image : "images/users/00.png"
+    designation : ""
+    content : "火线开源的洞态IAST很好的结合我司的生产发布流程，通过安全左移，在进入线上生产应用之前发现潜在的风险并修复，是实现降本增效的有力工具。"    
 
-  - name : "Bypass"
-    image : "images/users/02.png"
-    designation : "安全高级工程师, 企业用户"
-    content : "将洞态接入 DevOps 流程，实现自动安全测试，开启漏洞收割模式，是件很有意思的尝试。"
+
 
 ---
