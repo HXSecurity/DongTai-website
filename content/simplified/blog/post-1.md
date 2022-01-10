@@ -43,7 +43,7 @@ IAST 在企业落地之后，如何将自己掌握的挖洞知识快速沉淀至
 
 ![image](images/blogs/post-1/01.png)
 
-点击 `新增策略`，通过增加策略来增加漏洞类型
+* 点击 `新增策略`，通过增加策略来增加漏洞类型
 
 ![image](images/blogs/post-1/02.png)
 
@@ -57,7 +57,7 @@ IAST 在企业落地之后，如何将自己掌握的挖洞知识快速沉淀至
 
 ![image](images/blogs/post-1/03.png)
 
-然后，点击 `新增匹配规则`，进行规则的添加
+* 然后，点击 `新增匹配规则`，进行规则的添加
 
 ![image](images/blogs/post-1/04.png)
 
