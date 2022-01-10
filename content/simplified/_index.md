@@ -25,7 +25,7 @@ banner:
     label : "三 分 钟 快 速 部 署"
     link : "#"
     content : '<p style="letter-spacing: 3px; color: #33A9AC; font-size: 12px">
-    <strong>CNCF、Docker、Kubernetes、Java、Python、PHP、Go</strong></p><br>
+    <strong>Docker、Kubernetes、Java、Python、PHP、Go</strong></p><br>
     <iframe src="https://ghbtns.com/github-btn.html?user=HXSecurity&repo=DongTai&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>'
   buttonOne:
     label : "前 往 注 册"
