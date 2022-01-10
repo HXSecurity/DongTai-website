@@ -15,10 +15,10 @@ weight = 2
 #url = "news/"
 #weight = 3
 
-#[[main]]
-#name = "博客"
-#url = "blog/"
-#weight = 4
+[[main]]
+name = "博客"
+url = "blog/"
+weight = 4
 
 [[main]]
 name = "更新亮点"
