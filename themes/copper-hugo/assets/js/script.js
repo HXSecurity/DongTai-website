@@ -240,7 +240,7 @@ $(window).bind('load', function () {
 					autoplay: true,
 					autoplaySpeed: 3000,
 					mobileFirst: true,
-					slidesToScroll: 1,
+					slidesToScroll: 6,
 					responsive: [{
 							breakpoint: 1200,
 							settings: {
