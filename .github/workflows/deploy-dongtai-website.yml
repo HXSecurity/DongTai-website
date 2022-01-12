@@ -28,7 +28,6 @@ jobs:
           access-key-id: ${{ secrets.DONGTAI_OSS_ACCESS_KEY_ID }}
           access-key-secret: ${{ secrets.DONGTAI_OSS_ACCESS_KEY_SECRET }}
 
-      # - name: Upload images to oss
-      #   run: |
-      #     ossutil cp -f /tmp/dongtai-mysql-${{ steps.release.outputs.version }}.tar.gz oss://huoqi-public/iast/server-package/${{ steps.release.outputs.version }}/
-      #     ossutil cp -f /tmp/dongtai-redis-${{ steps.release.outputs.version }}.tar.gz oss://huoqi-public/iast/server-package/${{ steps.release.outputs.version }}/
+      - name: Upload static file to oss
+        run: |
+          ossutil cp -rf public/   oss://dongtai-website/
