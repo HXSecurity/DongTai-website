@@ -2,7 +2,7 @@ name: Deploy dongtai website v2
 
 on:
   release:
-    types: [created]
+    types: [ "created" ]
   push:
     branches: [ "main" ]
 
@@ -15,11 +15,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: hugo
+      - name: Build hugo static files
         uses: klakegg/actions-hugo@1.0.0
-
-      - name: Setup upterm session
-        uses: lhotari/action-upterm@v1
 
       - name: Setup Ossutil
         uses: manyuanrong/setup-ossutil@v2.0
