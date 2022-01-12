@@ -18,12 +18,7 @@ spec:
         app: dongtai-website-v2
     spec:
       containers:
-        - name: dongtai-website-v2-container
-          args:
-            - server
-            - '--bind=0.0.0.0'
-            - '--baseUrl=https://v2.dongtai.io/'
-            - '--appendPort=false'
+        - name: dongtai-website-v2-container            
           image: dongtai/dongtai-website-v2:VERSION
           imagePullPolicy: Always
           resources:
