@@ -198,7 +198,7 @@ about_us:
 testimonial:
   enable : true
   title : '洞 态 IAST  <p style="color: #33A9AC;"><strong>体 验 用 户 们 说 了 算</strong></p>'
-  content : '<hr><p style="letter-spacing: 5px;">励志做以用户体验为导向的🚀优质产品🚀'
+  content : '<hr><p style="letter-spacing: 5px;">立志做以用户体验为导向的🚀优质产品🚀'
   button:
     enable : true
     label : "查看全部用户评价"
