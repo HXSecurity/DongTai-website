@@ -23,7 +23,7 @@ banner:
     enable : true
     icon : ""
     label : "三 分 钟 快 速 部 署"
-    link : "#"
+    link : "https://doc.dongtai.io/02_start/01_overview.html"
     content : '<p style="letter-spacing: 3px; color: #33A9AC; font-size: 12px">
     <strong>Docker、Kubernetes、Java、Python、PHP、Go</strong></p><br>
     <iframe src="https://ghbtns.com/github-btn.html?user=HXSecurity&repo=DongTai&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>'
