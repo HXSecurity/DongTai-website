@@ -43,4 +43,4 @@ featured_testimonial:
     video_embed_link : "https://www.youtube.com/embed/dyZcRRWiuuw"
 ---
  
-<hr><p style="letter-spacing: 5px;"> 洞 态 IAST 励志做以用户体验为导向的🚀优质产品🚀
+<hr><p style="letter-spacing: 5px;"> 洞 态 IAST 立志做以用户体验为导向的🚀优质产品🚀
