@@ -4,10 +4,27 @@ description : "this is meta description"
 layout : "changelog"
 draft : false
 sidelist:
+- "v1.3.0 (January 18,2022)"
 - "v1.2.0 (January 04,2022)"
 - "v1.1.4 (December 21,2021)"
 
 ---
+### **v1.3.0 (January 18,2022)**
+#### **DongTai-IAST**
+
+* SCA 支持使用本地 API、SAAS API（默认）进行组件漏洞检测，提升组件漏洞检测能力。
+
+#### **DongTai-agent-java**
+
+* 新增策略：JNDI 注入
+![image](/images/changelog/v1.3.0/01.png)
+* 同步更新至策略管理
+![image](/images/changelog/v1.3.0/02.png)
+* 对应的 hook 规则
+![image](/images/changelog/v1.3.0/03.png)
+
+
+
 ### **v1.2.0 (January 04,2022)**
 #### **Contributor**
 
