@@ -81,7 +81,7 @@ homepage_tab:
     <br>☑ 敏感信息检测
     <br>☑ 硬编码检测
     <br>☑ 支持 IntelliJ IDEA 插件安装
-    <br><br>支援检测语言：
+    <br><br>支持检测语言：
       <i class="fab fa-java fa-2x"></i>&ensp;&ensp;
       <i class="fab fa-python fa-2x"></i>&ensp;&ensp;
       <i class="fab fa-php fa-2x"></i>✨&ensp;
@@ -119,7 +119,7 @@ homepage_tab:
 ############################## Tools in Use ########################
 tools:
   enable : false
-  title : "Agent 支援检测语言<br>Server 部署方案"
+  title : "Agent 支持检测语言<br>Server 部署方案"
   content : "了解详情"
   logos:
   - "images/tools/java.png"
@@ -179,7 +179,7 @@ about_us:
   title : "功 能 介 绍"
   image : "images/product/list.svg"
   content : '<p style="letter-spacing: 3px; color: #33A9AC; font-size: 18px">
-    <strong>支援的检测语言：Java、Python、PHP、Go</strong></p><br>
+    <strong>支持的检测语言：Java、Python、PHP、Go</strong></p><br>
     <p style="letter-spacing: 3px; color: #33A9AC; font-size: 18px">
     <strong>多环境部署方案：Docker、Kubernetes</strong></p><br>'
   bulletpoints:
