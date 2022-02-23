@@ -22,7 +22,7 @@ weight = 4
 
 [[main]]
 name = "更新亮点"
-url = "changelog/"
+url = "https://doc.dongtai.io/docs/changelog/release-note"
 weight = 5
 
 [[main]]
