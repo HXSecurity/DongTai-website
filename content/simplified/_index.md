@@ -69,7 +69,7 @@ homepage_tab:
     button:
       enable : true
       label : "了解详情"
-      link : "https://doc.dongtai.io/docs/getting-started/deploy-server"
+      link : "https://doc.dongtai.io/docs/getting-started/start-project#1-%E9%83%A8%E7%BD%B2-dongtai-iast-server"
       
   # tab item
   - name : "安装 Agent"
@@ -89,7 +89,7 @@ homepage_tab:
     button:
       enable : true
       label : "了解详情"
-      link : "https://doc.dongtai.io/docs/getting-started/agent/download-agent"
+      link : "https://doc.dongtai.io/docs/getting-started/start-project/#2-%E5%AE%89%E8%A3%85-dongtai-iast-agent"
       
   # tab item
   - name : "执行测试"
