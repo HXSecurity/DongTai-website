@@ -70,11 +70,11 @@
 - id: contact_wechat
   translation: 联 络 我 们  
 
-- id: wechat_dongtai
-  translation: 洞 态 微 信 公 众 号
+- id: wechat_huoxian
+  translation: 火 线 安 全 平 台
 
 - id: wechat_assistant
-  translation: 洞 态 小 助 理
+  translation:  小 助 理 - 小 依 企 微
 
 - id: hiring
   translation:  ⚡ 招 募 中 ！
