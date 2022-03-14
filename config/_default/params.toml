@@ -69,7 +69,7 @@ title = "Github"
 icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
 link = "https://github.com/HXSecurity/DongTai"
 
-[[social]]
-title = "Twitter"
-icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "https://twitter.com/HuoXian_DongTai"
+#[[social]]
+#title = "Twitter"
+#icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
+#link = "https://twitter.com/HuoXian_DongTai"
