@@ -79,5 +79,8 @@
 - id: hiring
   translation: We are Hiring!
 
+- id: business
+  translation:  Business Services
+
 - id: detail
   translation: Learn More

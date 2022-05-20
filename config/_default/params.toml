@@ -30,6 +30,13 @@ enable = true
 label = ""
 link = "https://mp.weixin.qq.com/s/kA61uqoA-euL1GWoemnlSg"
 
+# business button
+[business_button_bordered]
+enable = true
+label = ""
+link = "/business/"
+
+
 #[navigation_button_linked]
 #enable = true
 #label = ""

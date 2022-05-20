@@ -75,6 +75,14 @@
         </ul>
 
         <div class="navbar-button">
+          {{ with site.Params.business_button_bordered}}
+          {{ if .enable }}
+          <a style="margin-right: 12px;" {{if .link}}href="{{.link | relLangURL}}" target="_blank" {{else}}data-toggle="modal" data-target="#signup-modal" {{end}}
+          class="btn btn-sm btn-outline-primary">{{i18n "business"}}</a>
+          {{ end }}
+          {{ end }}
+
+
           {{ with site.Params.navigation_button_bordered}}
           {{ if .enable }}
           <a {{if .link}}href="{{.link | relLangURL}}" target="_blank" {{else}}data-toggle="modal" data-target="#signup-modal" {{end}}
