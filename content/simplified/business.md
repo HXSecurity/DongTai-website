@@ -13,7 +13,7 @@ business:
   communityList:
     - "单体应用漏洞检测"
     - "软件供应链安全分析"
-    - "多语言支持：Java、Pyhon、PHP、Golang等"
+    - "多语言支持：Java、Python、PHP、Golang等"
     - "应用链路数据仓库"
     - "社区支持"
   businessList:
