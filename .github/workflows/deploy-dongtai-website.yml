@@ -25,4 +25,4 @@ jobs:
 
       - name: Upload static file to oss
         run: |
-          ossutil cp -rf public/   oss://dongtai-website/
+          ossutil cp -rf public/   oss://dongtai-huoxian-cn/
