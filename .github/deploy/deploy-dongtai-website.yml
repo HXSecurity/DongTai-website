@@ -13,7 +13,6 @@ spec:
   selector:
     matchLabels:
       app: dongtai-website-v3
-      version: v1
   template:
     metadata:
       labels:
