@@ -7,15 +7,18 @@ metadata:
     kubesphere.io/description: dongtai-website-v3
   labels:
     app: dongtai-website-v3
+    version: v1
 spec:
   replicas: 1
   selector:
     matchLabels:
       app: dongtai-website-v3
+      version: v1
   template:
     metadata:
       labels:
         app: dongtai-website-v3
+        version: v1
     spec:
       containers:
         - name: dongtai-website-v3-container
