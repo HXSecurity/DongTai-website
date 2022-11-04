@@ -243,5 +243,26 @@ testimonial:
     image : "images/users/00.png"
     designation : ""
     content : "洞态 IAST 是款优秀的开源产品，基于动态的污点分析进行漏洞检测，覆盖了大量漏洞场景。产品背靠火线社区，社区向产品贡献了大量安全研究、安全开发的力量，注入了活力，为洞态的开源发展提供了优质的环境。 <br><br> 祝洞态 IAST 越办越好。"
-
+customer:
+  enable : true
+  title : '<p style="color: #33A9AC;"><strong>洞 态 IAST</strong></p>部 分 用 户 案 例'
+  image : "images/product/contributor.svg"
+  content : '<hr><br>'
+  logos:
+  - content : "多点 DMALL 对洞态进行高自由度的二次开发"
+    img : "images/customer/dmall.png"
+  - content : "解构开源 IAST 打造好大夫安全灰盒利器"
+    img : "images/customer/doc.png"
+  - content : "58集团 IAST/RASP 调研与实践：⽇活 5000 Agent 的 IAST 落地全流程"
+    img : "images/customer/58.png"
+  - content : "调研、改造、实践：洞态IAST在陌陌的应用"
+    img : "images/customer/momo.png"
+  button_label: "查看更多"
+whiteBook:
+  enable : true
+  title : '<p style="color: #33A9AC;"><strong>洞 态 IAST</strong></p>白皮书申请'
+  image : "images/product/contributor.svg"
+  content : '<hr><br>'
+  luodi : 'images/whiteBook/luodi.png'
+  whiteBook : 'images/whiteBook/whiteBook.png'
 ---

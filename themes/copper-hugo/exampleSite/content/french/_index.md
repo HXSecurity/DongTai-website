@@ -187,5 +187,11 @@ testimonial:
     image : "images/users/02.jpg"
     designation : "CEO, Angular Corporation"
     content : "Lorem ipsum dolor sit amet, kasd gubergren, seatakimata dolores et rebum stetclita"
-
+############################## Customer ################################
+customer:
+  enable : true
+  title : "Create an automated **Customer by setting**"
+  image : "images/screenshots/03.png"
+  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed."
+  
 ---

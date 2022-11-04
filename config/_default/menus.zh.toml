@@ -26,9 +26,19 @@ url = "https://doc.dongtai.io/docs/changelog/release-note"
 weight = 5
 
 [[main]]
-#name = "Contact"
-#url = "contact/"
-#weight = 6
+name = "关于我们"
+url = "about/"
+weight = 6
+
+[[main]]
+parent = "关于我们"
+name = "公司简介"
+url = "about"
+
+[[main]]
+parent = "关于我们"
+name = "用户案例"
+url = "about#user"
 
 [[main]]
 #name = "Pages"
