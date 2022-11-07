@@ -50,6 +50,6 @@ jobs:
             find .github/deploy/deploy-dongtai-website.yml -type f -exec sed -i 's/VERSION/0.0.${{github.run_number}}/g' {} \;
             ls .github/deploy/deploy-dongtai-website.yml | xargs -I {} kubectl apply -f {}
 
-      # - name: Upload static file to oss
-      #   run: |
-      #     ossutil cp -rf public/ oss://dongtai-huoxian-cn/
+      - name: Upload static file to oss
+        run: |
+          ossutil cp -rf public/ oss://dongtai-huoxian-cn/
