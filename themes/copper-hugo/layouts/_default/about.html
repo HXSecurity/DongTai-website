@@ -23,7 +23,7 @@
 
 <section class="section-padding image-info-section has-shapes bg-light-gray has-bg-brash bg-brash-y" style="background-image: url('{{`images/brushes/section-top.svg` | absURL}}'), url('{{`images/brushes/section-bottom.svg` | absURL}}');" data-aos="fade-in">
     <div class="col-xl-16">
-        <h2 class="section-title" style="text-align:center;margin: 36px 0">公司分布
+        <h2 class="section-title" style="text-align:center;margin: 36px 0">联系我们
         </h2>
         <div class="com-list-box">
             <div class="com-card border">
@@ -42,12 +42,12 @@
                     <span class="value">hi@huoxian.cn</span>
                 </div>
                 <div class="com-list">
-                    <span class="icon"><img width="14" height="14" src="{{.phone | absURL}}" alt=""></span>
+                    <span class="icon"><img width="14" height="14" src="{{.wechat | absURL}}" alt=""></span>
                     <span class="label">微信:</span>
                     <span class="value">huoxiandongtai</span>
                 </div>
                 <div class="com-list">
-                    <span class="icon"><img width="14" height="14" src="{{.phone | absURL}}" alt=""></span>
+                    <span class="icon"><img width="14" height="14" src="{{.place | absURL}}" alt=""></span>
                     <span class="label">地址:</span>
                     <span class="value">北京市海淀区上地东路35号颐泉汇C座3层</span>
                 </div>
@@ -63,7 +63,7 @@
                     <span class="value">010-82772660 199 1038 6797</span>
                 </div>
                 <div class="com-list">
-                    <span class="icon"><img width="14" height="14" src="{{.phone | absURL}}" alt=""></span>
+                    <span class="icon"><img width="14" height="14" src="{{.place | absURL}}" alt=""></span>
                     <span class="label">地址:</span>
                     <span class="value">上海市黄浦区河南南路33号新上海城市广场19层</span>
                 </div>
@@ -79,7 +79,7 @@
                     <span class="value">010-82772660 199 1038 6797</span>
                 </div>
                 <div class="com-list">
-                    <span class="icon"><img width="14" height="14" src="{{.phone | absURL}}" alt=""></span>
+                    <span class="icon"><img width="14" height="14" src="{{.place	 | absURL}}" alt=""></span>
                     <span class="label">地址:</span>
                     <span class="value">深圳市南山区高新南一道008号创维大厦C座8层</span>
                 </div>
@@ -124,11 +124,15 @@
         display: flex;
         padding: 8px 24px;
         font-size: 12px;
-        align-items: center;
+        align-items: flex-start;
     }
     
     .com-list span {
         margin-right: 12px;
+    }
+    
+    .com-list .label {
+        width: 32px;
     }
     
     .com-list-box .com-card {

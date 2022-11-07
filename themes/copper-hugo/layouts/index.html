@@ -308,7 +308,7 @@
                 <div style="display: flex;">
                     {{ range .logos }}
                     <div onclick="window.open('{{ .link }}', '_blank')" class="user-list-box shadow brand-item mx-2 d-flex flex-column align-items-center justify-content-center bg-white p-4" style="box-sizing: border-box;width: 274px !important;height: 168px;">
-                        <img class="img-fluid" width="80px" src="{{ .img |absURL}}" alt="">
+                        <img class="img-fluid" width="120px" src="{{ .img |absURL}}" alt="">
                         <div class="mt-4" style="font-weight:400;font-size:12px;">{{.content}}</div>
                     </div>
                     {{ end }}
