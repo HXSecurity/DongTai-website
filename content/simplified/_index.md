@@ -251,12 +251,16 @@ customer:
   logos:
   - content : "多点 DMALL 对洞态进行高自由度的二次开发"
     img : "images/customer/dmall.png"
+    link : "https://mp.weixin.qq.com/s/cYZk0awT24BUrdjKWT-uVA"
   - content : "解构开源 IAST 打造好大夫安全灰盒利器"
     img : "images/customer/doc.png"
+    link : "https://mp.weixin.qq.com/s/dRpVDlVHaonXNl1E4IRBNw"
   - content : "58集团 IAST/RASP 调研与实践：⽇活 5000 Agent 的 IAST 落地全流程"
     img : "images/customer/58.png"
+    link : "https://mp.weixin.qq.com/s/kvm8EJwOv-DXYlutRG9t7Q"
   - content : "调研、改造、实践：洞态IAST在陌陌的应用"
     img : "images/customer/momo.png"
+    link : "https://mp.weixin.qq.com/s/NCLsECx5HCL8VMvqUkLUxQ"
   button_label: "查看更多"
 whiteBook:
   enable : true

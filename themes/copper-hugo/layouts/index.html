@@ -82,7 +82,7 @@
 {{ end }} {{ end }}
 
 <!-- start of brand-carousel -->
-{{ if .Params.clients_logo_slider.enable }} {{ with .Params.clients_logo_slider }}
+<!-- {{ if .Params.clients_logo_slider.enable }} {{ with .Params.clients_logo_slider }}
 <section class="section-padding overflow-hidden">
     <div class="container">
         <div class="row">
@@ -97,7 +97,7 @@
         </div>
     </div>
 </section>
-{{ end }} {{ end }}
+{{ end }} {{ end }} -->
 <!-- end of brand-carousel -->
 
 <!-- start of how-it-works tab -->
@@ -307,7 +307,7 @@
             <div class="col-md-12" data-aos="fade-left">
                 <div style="display: flex;">
                     {{ range .logos }}
-                    <div class="user-list-box shadow brand-item mx-2 d-flex flex-column align-items-center justify-content-center bg-white p-4" style="box-sizing: border-box;width: 274px !important;height: 168px;">
+                    <div onclick="window.open('{{ .link }}', '_blank')" class="user-list-box shadow brand-item mx-2 d-flex flex-column align-items-center justify-content-center bg-white p-4" style="box-sizing: border-box;width: 274px !important;height: 168px;">
                         <img class="img-fluid" width="80px" src="{{ .img |absURL}}" alt="">
                         <div class="mt-4" style="font-weight:400;font-size:12px;">{{.content}}</div>
                     </div>
