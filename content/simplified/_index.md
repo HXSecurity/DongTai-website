@@ -257,7 +257,7 @@ customer:
     link : "https://mp.weixin.qq.com/s/dRpVDlVHaonXNl1E4IRBNw"
   - content : "58集团 IAST/RASP 调研与实践：⽇活 5000 Agent 的 IAST 落地全流程"
     img : "images/about/58.png"
-    link : "https://mp.weixin.qq.com/s/kvm8EJwOv-DXYlutRG9t7Q"
+    link : "https://mp.weixin.qq.com/s/JTgeItVSULsNRgl61FrEcw"
   - content : "调研、改造、实践：洞态IAST在陌陌的应用"
     img : "images/about/momo.png"
     link : "https://mp.weixin.qq.com/s/NCLsECx5HCL8VMvqUkLUxQ"
