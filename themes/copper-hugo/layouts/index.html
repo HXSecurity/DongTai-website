@@ -25,9 +25,9 @@
 
                 {{if .form.enable }} {{with .form }}
                 <div class="input-group d-block d-sm-flex" style="margin-top: 20px;">
-                    <a href="https://doc.dongtai.io/docs/getting-started/start-project/" target="_blank" class="btn btn-outline-secondary d-flex align-items-center justify-content-center" style="width:calc(150% - 200px); background-color: #FFD55A">
+                    <a href="https://doc.dongtai.io/docs/getting-started/start-project/" target="_blank" class="btn btn-outline-secondary d-flex align-items-center justify-content-center" style="width:calc(150% - 200px); color: #FFA646">
           {{with .icon}} <img loading="lazy" class="mr-2" src="{{ . }}">{{end}} 三 分 钟 快 速 部 署 </a>
-                    <!-- <div class="input-group-append">
+                    <!-- <div class="input-group-append">#FFD55A
                         <button class="btn btn-primary has-icon ml-15">
                 <a href="https://jinshuju.net/f/I9PNmf" target="_blank" style="color:#fff">
                 {{.button_label}}
@@ -43,7 +43,7 @@
 
                 <div class="divider-text mt-25 mb-25"><span class="bg-light-gray">OR</span></div>
                 {{ end }} {{ end }} {{ if .button.enable }} {{ with .button }}
-                <a href="{{.link | absLangURL}}" class="btn btn-outline-secondary d-flex align-items-center justify-content-center" style="color: #FFA646">
+                <a href="{{.link | absLangURL}}" class="btn btn-outline-secondary d-flex align-items-center justify-content-center" style="background-color: #FFD55A">
           {{with .icon}} <img loading="lazy" class="mr-2" src="{{ . }}">{{end}} {{.label}}</a>
 
                 <p class="content has-underdot-link text-black-700 mt-15">{{ .content | markdownify }}</p>
