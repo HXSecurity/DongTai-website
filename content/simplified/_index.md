@@ -22,8 +22,8 @@ banner:
   button:
     enable : true
     icon : ""
-    label : "三 分 钟 快 速 部 署"
-    link : "https://doc.dongtai.io/docs/getting-started/start-project/"
+    label : "商 业 服 务 试 用 "
+    link : "https://wenjuan.feishu.cn/m/cfm?t=sBK3FH5yd0Hi-1s6u"
     content : '<p style="letter-spacing: 3px; color: #33A9AC; font-size: 12px">
     <strong>Docker、Kubernetes、Java、Python、PHP、Go</strong></p><br>
     <iframe src="https://ghbtns.com/github-btn.html?user=HXSecurity&repo=DongTai&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>'
