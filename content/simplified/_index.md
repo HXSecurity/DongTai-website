@@ -25,7 +25,7 @@ banner:
     label : "商 业 服 务 试 用 "
     link : "https://wenjuan.feishu.cn/m/cfm?t=sBK3FH5yd0Hi-1s6u"
     content : '<p style="letter-spacing: 3px; color: #33A9AC; font-size: 12px">
-    <strong>Docker、Kubernetes、Java、Python、PHP、Go</strong></p><br>
+    <strong>Docker、Kubernetes</strong></p><br>
     <iframe src="https://ghbtns.com/github-btn.html?user=HXSecurity&repo=DongTai&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>'
   buttonOne:
     label : "前 往 注 册"
@@ -201,8 +201,6 @@ about_us:
   title : "功 能 介 绍"
   image : "images/product/list.svg"
   content : '<p style="letter-spacing: 3px; color: #33A9AC; font-size: 18px">
-    <strong>支持的检测语言：Java、Python、PHP、Go</strong></p><br>
-    <p style="letter-spacing: 3px; color: #33A9AC; font-size: 18px">
     <strong>多环境部署方案：Docker、Kubernetes</strong></p><br>'
   bulletpoints:
     - "SaaS 体验服务"
