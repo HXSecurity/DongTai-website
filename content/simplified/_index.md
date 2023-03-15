@@ -25,7 +25,7 @@ banner:
     label : "商 业 服 务 试 用 "
     link : "https://wenjuan.feishu.cn/m/cfm?t=sBK3FH5yd0Hi-1s6u"
     content : '<p style="letter-spacing: 3px; color: #33A9AC; font-size: 12px">
-    <strong>Docker、Kubernetes</strong></p><br>
+    </p>
     <iframe src="https://ghbtns.com/github-btn.html?user=HXSecurity&repo=DongTai&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>'
   buttonOne:
     label : "前 往 注 册"
