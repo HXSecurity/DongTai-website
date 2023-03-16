@@ -10,10 +10,10 @@ name = "文档"
 url = "https://doc.dongtai.io/index.html"
 weight = 2
 
-[[main]]
-name = "最新消息"
-url = "news/"
-weight = 3
+#[[main]]
+#name = "最新消息"
+#url = "news/"
+#weight = 3
 
 [[main]]
 name = "博客"
