@@ -21,7 +21,7 @@ business:
     - "主流微服务框架支持(Dubbo、Spring Cloud、gRPC)"
     - "运行时深层软件供应链安全分析"
     - "漏洞修复优先级支持"
-    - "更友好的dashboad及报告"
+    - "更友好的dashboard及报告"
     - "商业SLA级别支持"
 ---
 
