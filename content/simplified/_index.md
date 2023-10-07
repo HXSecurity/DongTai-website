@@ -69,7 +69,7 @@ homepage_tab:
     button:
       enable : true
       label : "了解详情"
-      link : "https://doc.dongtai.io/docs/getting-started/start-project#1-%E9%83%A8%E7%BD%B2-dongtai-iast-server"
+      link : "https://docs.dongtai.io/docs/getting-started/start-project#1-%E9%83%A8%E7%BD%B2-dongtai-iast-server"
       
   # tab item
   - name : "安装 Agent"
@@ -89,7 +89,7 @@ homepage_tab:
     button:
       enable : true
       label : "了解详情"
-      link : "https://doc.dongtai.io/docs/getting-started/start-project/#2-%E5%AE%89%E8%A3%85-dongtai-iast-agent"
+      link : "https://docs.dongtai.io/docs/getting-started/start-project/#2-%E5%AE%89%E8%A3%85-dongtai-iast-agent"
       
   # tab item
   - name : "执行测试"
@@ -101,7 +101,7 @@ homepage_tab:
     button:
       enable : true
       label : "了解详情"
-      link : "https://doc.dongtai.io/docs/getting-started/start-project#3-%E5%BC%80%E5%90%AF%E5%AE%89%E5%85%A8%E6%A3%80%E6%B5%8B%E9%A1%B9%E7%9B%AE"
+      link : "https://docs.dongtai.io/docs/getting-started/start-project#3-%E5%BC%80%E5%90%AF%E5%AE%89%E5%85%A8%E6%A3%80%E6%B5%8B%E9%A1%B9%E7%9B%AE"
       
   # tab item
   - name : "查阅报告"
@@ -113,7 +113,7 @@ homepage_tab:
     button:
       enable : true
       label : "了解详情"
-      link : "https://doc.dongtai.io/docs/operation/application-management#%E9%A1%B9%E7%9B%AE%E8%AF%A6%E6%83%85"
+      link : "https://docs.dongtai.io/docs/operation/application-management#%E9%A1%B9%E7%9B%AE%E8%AF%A6%E6%83%85"
 
 
 ############################## Tools in Use ########################

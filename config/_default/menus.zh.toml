@@ -7,7 +7,7 @@ weight = 1
 
 [[main]]
 name = "文档"
-url = "https://doc.dongtai.io/index.html"
+url = "https://docs.dongtai.io/index.html"
 weight = 2
 
 #[[main]]
@@ -22,7 +22,7 @@ weight = 4
 
 [[main]]
 name = "更新亮点"
-url = "https://doc.dongtai.io/docs/changelog/release-note"
+url = "https://docs.dongtai.io/docs/changelog/release-note"
 weight = 5
 
 [[main]]
@@ -83,12 +83,12 @@ url = "about#user"
 # Footer menu
 [[footer]]
 name = "Docs"
-url = "https://doc.dongtai.io"
+url = "https://docs.dongtai.io"
 weight = 1
 
 [[footer]]
 name = "FAQ"
-url = "https://doc.dongtai.io/docs/category/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98"
+url = "https://docs.dongtai.io/docs/category/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98"
 weight = 2
 
 #[[footer]]

@@ -145,7 +145,7 @@ dtctl upgrade -f 1.1.3 -t 1.2.0
 
 需求：D 公司想将洞态 IAST 用于 DevOps 流程中，但应用上线频繁，存在大量的应用和项目，手动创建项目太麻烦该怎么办呢？
 
-做法：通过 `project.create` 参数直接创建项目，参考文档：[🔗](https://doc.dongtai.io/03_config/02_agent.html#id1)
+做法：通过 `project.create` 参数直接创建项目，参考文档：[🔗](https://docs.dongtai.io/03_config/02_agent.html#id1)
 
 * 场景二
 
