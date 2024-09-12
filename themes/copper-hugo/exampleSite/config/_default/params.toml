@@ -7,6 +7,7 @@ apple_touch_icon = "images/favicon.png"
 # logo
 logo_text = "Copper"
 logo = "images/logo.png"
+guide = "images/guide.png"
 logo_width = ""
 # OpenGraph / Twitter Card metadata
 description = "This is meta description"

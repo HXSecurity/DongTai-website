@@ -30,10 +30,7 @@ name = "关于我们"
 url = "about/"
 weight = 6
 
-[[main]]
-parent = "关于我们"
-name = "公司简介"
-url = "about"
+
 
 [[main]]
 parent = "关于我们"

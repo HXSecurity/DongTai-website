@@ -1,5 +1,5 @@
 {{ "<!-- navigation -->" | safeHTML }}
-<header class="header-nav position-relative {{.Scratch.Get `bg`}}">
+<header class="header-nav position-relative {{.Scratch.Get `bg`}}" >
   <div class="container">
     <nav class="navbar navbar-expand-xl navbar-light px-0">
       <a class="navbar-brand p-0" href="{{ site.BaseURL | relLangURL }}">
@@ -78,15 +78,22 @@
           {{ with site.Params.business_button_bordered}}
           {{ if .enable }}
           <a style="margin-right: 12px;" {{if .link}}href="{{.link | relLangURL}}" target="_blank" {{else}}data-toggle="modal" data-target="#signup-modal" {{end}}
-          class="btn btn-sm btn-outline-primary">{{i18n "business"}}</a>
+          class="btn btn-sm btn-outline-primary btn-outline-primary-modal">
+          <!-- <a style="margin-right: 12px;" {{if .link}}href="{{.link | relLangURL}}" target="_blank" {{else}}data-toggle="modal" data-target="#signup-modal" {{end}}
+          class="btn btn-sm btn-outline-primary btn-outline-primary-modal"> -->
+          {{i18n "business"}}
+            <!-- <div class="download-buss  border">
+                <p></p>
+                <img src="{{ .guide | relURL }}" alt="">
+            </div> -->
+          </a>
           {{ end }}
           {{ end }}
-
 
           {{ with site.Params.navigation_button_bordered}}
           {{ if .enable }}
-          <a {{if .link}}href="{{.link | relLangURL}}" target="_blank" {{else}}data-toggle="modal" data-target="#signup-modal" {{end}}
-            class="btn btn-sm btn-outline-primary">{{i18n "hiring"}}</a>
+          <!-- <a {{if .link}}href="{{.link | relLangURL}}" target="_blank" {{else}}data-toggle="modal" data-target="#signup-modal" {{end}}
+            class="btn btn-sm btn-outline-primary">{{i18n "hiring"}}</a> -->
           {{ end }}
           {{ end }}
 
@@ -186,4 +193,36 @@
     </div>
   </div>
 </div>
+<!-- <style>
+  .btn-outline-primary-modal {
+		position: relative;
+	}
+
+	.btn-outline-primary-modal:hover .download-buss {
+    display: block;
+  }
+
+	.download-buss {
+		display: none;
+    text-align: center;
+    border-radius: 4px;
+    padding: 24px;
+    width: 260px;
+    position: absolute;
+    right: -48px;
+    top: 48px;
+    background: #fff;
+    color:rgb(34, 34, 34);
+	}
+
+	.download-buss img {
+		width: 140px;
+		height: 140px;
+    padding: 4px;
+	}
+
+	.download-buss p {
+		font-size: 12px;
+	}
+</style> -->
 <!-- login-modal -->

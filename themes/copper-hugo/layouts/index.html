@@ -43,8 +43,14 @@
 
                 <div class="divider-text mt-25 mb-25"><span class="bg-light-gray">OR</span></div>
                 {{ end }} {{ end }} {{ if .button.enable }} {{ with .button }}
-                <a href="{{.link | absLangURL}}" class="btn btn-outline-secondary d-flex align-items-center justify-content-center" style="background-color: #FFD55A">
-          {{with .icon}} <img loading="lazy" class="mr-2" src="{{ . }}">{{end}} {{.label}}</a>
+                <!-- <a href="{{.link | absLangURL}}" class="btn btn-outline-secondary d-flex align-items-center justify-content-center btn-outline-primary-modal" style="background-color: #FFD55A"> -->
+                <a  class="btn btn-outline-secondary d-flex align-items-center justify-content-center btn-outline-primary-modal" style="background-color: #FFD55A">
+          {{with .icon}} <img loading="lazy" class="mr-2" src="{{ . }}">{{end}} {{.label}}
+          <div class="download-buss  border">
+            <p></p>
+            <img  src="/images/guide.png" alt="">
+        </div>
+            </a>
 
                 <p class="content has-underdot-link text-black-700 mt-15">{{ .content | markdownify }}</p>
                 {{ end }} {{ end }}
@@ -339,11 +345,20 @@
                 <p>{{ .content | markdownify }}</p>
             </div>
         </div>
-        <div class="row" style="border-bottom: 1px solid #DEE2E6;padding: 22px 16px;position: relative;">
+        <!-- <div class="row" style="border-bottom: 1px solid #DEE2E6;padding: 22px 16px;position: relative;">
             <div style="display: flex;justify-content: space-between;align-items: center;flex:1;"><span>	洞态白皮书</span> <span class="rowDownload" style="border: 2px solid #33A9AC;border-radius: 4px;padding:4px 40px;cursor: pointer;">下载
 						  <div class="download  border">
                 <p>洞态白皮书申请</p>
                 <img src="{{ .whiteBook | absURL }}" alt="">
+                <p>填写并提交问卷后即可下载</p>
+            </div>
+						</span></div>
+        </div> -->
+        <div class="row" style="border-bottom: 1px solid #DEE2E6;padding: 22px 16px;position: relative;">
+            <div style="display: flex;justify-content: space-between;align-items: center;flex:1;"><span>	《IAST金融行业专刊——基调听云》</span> <span class="rowDownload" style="border: 2px solid #33A9AC;border-radius: 4px;padding:4px 40px;cursor: pointer;">下载
+						  <div class="download  border">
+                <p>《IAST金融行业专刊——基调听云》申请</p>
+                <img src="/images/ty-book.png" alt="">
                 <p>填写并提交问卷后即可下载</p>
             </div>
 						</span></div>
@@ -402,5 +417,38 @@
         /* 2 */
         color: #33A9AC;
     }
+
+    .btn-outline-primary-modal {
+		position: relative;
+        z-index: 2;
+	}
+
+	.btn-outline-primary-modal:hover .download-buss {
+    display: block;
+  }
+
+	.download-buss {
+        display: none;
+    text-align: center;
+    border-radius: 4px;
+    padding: 24px;
+    width: 260px;
+    position: absolute;
+    right: 100px;
+    top: -196px;
+    background: #fff;
+    color: rgb(34, 34, 34);
+    z-index: 1000;
+	}
+
+	.download-buss img {
+		width: 140px;
+		height: 140px;
+    padding: 4px;
+	}
+
+	.download-buss p {
+		font-size: 12px;
+	}
 </style>
 {{ end }} {{ end }} {{ end }}

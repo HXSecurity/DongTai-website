@@ -35,6 +35,7 @@ link = "https://mp.weixin.qq.com/s/Z9NWJp8f1fscoQrY1W2X8w"
 enable = true
 label = ""
 link = "/business/"
+guide = "images/guide.png"
 
 
 #[navigation_button_linked]
